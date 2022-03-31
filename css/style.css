@@ -68,12 +68,12 @@ nav {
 .hero__large-image-wrapper--2 {
     position: absolute;
     right:9rem;
-    top: 8rem;
+    top: 6rem;
 }
 .hero__small-image-wrapper--3 {
     position: absolute;
     right:15rem;
-    top: 10rem;
+    top:9rem;
 }
 .hero__large-image-wrapper--4 {
     position: absolute;
@@ -82,8 +82,8 @@ nav {
 }
 .hero__small-image-wrapper--5 {
     position: absolute;
-    right:24rem;
-    top: 11rem;
+    right:25rem;
+    top: 13rem;
 }
 .hero__small-image-wrapper {
     width: 3.125rem;
@@ -173,7 +173,7 @@ nav {
 }
 .story-lion-image__wrapper {
     position: absolute;
-    top: 5rem;
+    top: 6rem;
     right: 0;
     width: 34.87rem;
     height: 32rem;
@@ -225,11 +225,11 @@ nav {
     background-color: #e5c292;
 }
 .our-story h2 {
-    margin-bottom:2rem;
+    margin-bottom:0.85rem;
 }
 .our-story h5 {
     line-height: 2.4rem;
-    margin-bottom: 1.8rem;
+    margin-bottom:2.3rem;
 }
 .our-story__para p {
     line-height: 1.8rem;
@@ -286,7 +286,7 @@ nav {
     margin-bottom: 2rem;
 }
 .section-roadmap h2 {
-    margin-bottom: 2rem;
+    margin-bottom:1.875rem;
     margin-top: 2rem;
 }
 .roadmap__icon-wrapper {
@@ -402,7 +402,7 @@ nav {
     margin-bottom: 1.87rem;
 }
 .projects-specs__heading {
-    margin-bottom: 2.5rem;
+    margin-bottom:1.875rem;
 }
 h4 {
     font-family: "Bahiana", cursive;
@@ -492,7 +492,7 @@ h4 {
     width: 10.18rem;
 }
 .our-team__heading {
-    margin-bottom: 2.375rem;
+    margin-bottom:1.875rem;
 }
 .single-employee {
     padding: 0.625rem;
@@ -556,7 +556,7 @@ h4 {
     background-color: #fff;
 }
 .section-faqs h2 {
-    margin-bottom: 2rem;
+    margin-bottom:1.875rem;
 }
 .faqs__heading {
     padding-bottom: 1.5rem;
