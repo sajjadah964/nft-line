@@ -25,7 +25,7 @@
         display: none;
     }
     .hero {
-        padding: 1rem;
+        padding: 1rem 1.5rem 1rem 1.5rem;
     }
     .nav-top__menu {
         display: none;
@@ -38,7 +38,7 @@
         height: auto;
     }
     .our-story {
-        padding: 2rem;
+        padding: 1.5rem;
     }
     .roadmap__heading {
         margin-bottom: 0;
@@ -81,8 +81,8 @@
         width: auto;
     }
     .projects-specs {
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
         padding-top: 14rem;
         margin-bottom: 0;
     }
@@ -101,7 +101,7 @@
         z-index: 30;
     }
     .nav-top {
-        padding: 1rem;
+        padding: 1rem 1.5rem 1rem 1.5rem;
         line-height: normal;
     }
     .nav-top__menu li {
@@ -111,8 +111,8 @@
         margin-bottom: 0;
     }
     .our-team {
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
         padding-top: 5rem;
     }
     .our-story .grid--2-col  {
@@ -138,8 +138,8 @@
         display: none;
     }
     .section-faqs {
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
     .faqs__box {
         width: auto;
@@ -148,7 +148,7 @@
         padding: 0 1rem;
     }
     .footer {
-        padding: 0 1rem;
+        padding: 0 1.5rem;
     }
     .projects-specs__image-wrapper {
         width: auto;
@@ -166,11 +166,11 @@
         width: auto;
     }
     .section-roadmap {
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
     .section-mouse-image {
-        padding: 2rem 1rem 0 1rem;
+        padding: 2rem 1.5rem 0 1.5rem;
     }
 }
 @media screen and (min-width: 310px) and (max-width: 479px) {
@@ -265,7 +265,7 @@
         padding-top: 6rem;
     }
     .roadmap__heading {
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
     }
     .section-roadmap h2 {
         margin-top: 2rem;
@@ -286,7 +286,7 @@
         margin-bottom: 0rem;
     }
     .our-team__heading {
-        margin-bottom: 1.375rem;
+        margin-bottom: 2rem;
     }
     .projects-specs__heading {
         margin-bottom: 2rem;
@@ -309,7 +309,7 @@
         padding-top:2.43rem ;
     }
     .section-faqs h2 {
-        margin-bottom: 1.25rem;
+        margin-bottom: 2rem;
     }
     .section-faqs {
         padding-bottom: 0;

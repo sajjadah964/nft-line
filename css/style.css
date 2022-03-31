@@ -4,15 +4,15 @@
 .header {
     height: 68.56rem;
     background: linear-gradient(180deg, #ffefcf 0%, #ffd493 100%);
-    margin-bottom: 11rem;
+    margin-bottom: 12rem;
 }
 
 /******************************************
             Navbar Menu  Section
 ******************************************/
 nav {
-    height: 12.25rem;
-    line-height: 13.25rem;
+    height: 13.75rem;
+    line-height: 13.75rem;
 }
 .nav-top__menu {
     display: flex;
@@ -94,7 +94,7 @@ nav {
     height: 1.5rem;
 }
 .hero__navigation {
-    margin-bottom: 1rem;
+    margin-bottom: 2.125rem;
 }
 .hero__left-sky-wrapper {
     height: 23.875rem;
@@ -169,7 +169,7 @@ nav {
 }
 .our-story__button-wrapper {
     width: 9.625rem;
-    margin-bottom: 1.7rem;
+    margin-bottom: 1.875rem;
 }
 .story-lion-image__wrapper {
     position: absolute;
@@ -225,7 +225,7 @@ nav {
     background-color: #e5c292;
 }
 .our-story h2 {
-    margin-bottom: 1.7rem;
+    margin-bottom:2rem;
 }
 .our-story h5 {
     line-height: 2.4rem;
@@ -275,15 +275,19 @@ nav {
 .roadmap__button-wrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.875rem;
 }
 .button-roadmap {
     background-color: #ffa832;
     width: 8.68rem;
 }
-.roadmap__heading {
+.roadmap__heading h2{
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
+}
+.section-roadmap h2 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 .roadmap__icon-wrapper {
     width: 4.78rem;
@@ -347,10 +351,9 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.section-roadmap h2 {
+/* .section-roadmap h2 {
     margin-bottom: 3rem;
-    margin-top: 5rem;
-}
+} */
 /******************************************
             Tree  Section
 ******************************************/
@@ -399,7 +402,7 @@ nav {
     margin-bottom: 1.87rem;
 }
 .projects-specs__heading {
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
 }
 h4 {
     font-family: "Bahiana", cursive;
@@ -477,7 +480,7 @@ h4 {
     left: 0rem;
 }
 .our-team-button {
-    margin-bottom: 2.18rem;
+    margin-bottom:1.875rem;
 }
 .button-team {
     background-color: #dd7f00;
@@ -489,7 +492,7 @@ h4 {
     width: 10.18rem;
 }
 .our-team__heading {
-    margin-bottom: 4.375rem;
+    margin-bottom: 2.375rem;
 }
 .single-employee {
     padding: 0.625rem;
@@ -541,7 +544,7 @@ h4 {
 }
 .section-faqs__button {
     width: 22.87rem;
-    margin-bottom: 2.18rem;
+    margin-bottom:1.875rem;
 }
 .button-faqs {
     background-color: #7f0214;
@@ -553,7 +556,7 @@ h4 {
     background-color: #fff;
 }
 .section-faqs h2 {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 .faqs__heading {
     padding-bottom: 1.5rem;
