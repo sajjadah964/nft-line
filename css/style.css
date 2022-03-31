@@ -1,0 +1,633 @@
+/******************************************
+            Header Section
+******************************************/
+.header {
+    height: 68.56rem;
+    background: linear-gradient(180deg, #ffefcf 0%, #ffd493 100%);
+    margin-bottom: 11rem;
+}
+
+/******************************************
+            Navbar Menu  Section
+******************************************/
+nav {
+    height: 12.25rem;
+    line-height: 13.25rem;
+}
+.nav-top__menu {
+    display: flex;
+    column-gap: 3.75rem;
+    z-index: 10;
+}
+.nav-top__menu a {
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+}
+.nav-top__social-icons i {
+    font-size: 1.3rem;
+}
+.nav-top__menu a:hover {
+    color: #ff9014;
+}
+.active {
+    color: #ff9014;
+}
+.nav-top__social-icons {
+    display: flex;
+    column-gap: 2rem;
+    z-index: 10;
+}
+.nav-top__social-icons i:hover {
+    color: #ff9014;
+}
+.mobile-icon-wrapper {
+    display: none;
+}
+/******************************************
+            Hero  Section
+******************************************/
+.hero {
+    position: relative;
+}
+.hero h1 {
+    margin-bottom: 5.31rem;
+    position: relative;
+    z-index: 10;
+}
+.hero__crow-images {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.hero__small-image-wrapper--1 {
+    position: absolute;
+    right:3rem;
+    top: 7rem;
+}
+.hero__large-image-wrapper--2 {
+    position: absolute;
+    right:9rem;
+    top: 8rem;
+}
+.hero__small-image-wrapper--3 {
+    position: absolute;
+    right:15rem;
+    top: 10rem;
+}
+.hero__large-image-wrapper--4 {
+    position: absolute;
+    right:19rem;
+    top: 12rem;
+}
+.hero__small-image-wrapper--5 {
+    position: absolute;
+    right:24rem;
+    top: 11rem;
+}
+.hero__small-image-wrapper {
+    width: 3.125rem;
+    height: 1.18rem;
+}
+.hero__large-image-wrapper {
+    width: 3.93rem;
+    height: 1.5rem;
+}
+.hero__navigation {
+    margin-bottom: 1rem;
+}
+.hero__left-sky-wrapper {
+    height: 23.875rem;
+    width: 62rem;
+    left: 0;
+    top: -10rem;
+    position: absolute;
+}
+.hero__right-sky-wrapper {
+    height: 23.875rem;
+    width: 62rem;
+    position: absolute;
+    right: 0;
+    top: -10rem;
+}
+.hero__lion-wrapper {
+    width: 28.31rem;
+    height: 41.5rem;
+}
+.hero__lion-images {
+    margin-bottom: 3rem;
+}
+.hero__navigation-wrapper {
+    display: flex;
+    column-gap: 2.56rem;
+    justify-content: center;
+}
+.hero__navigation-wrapper i {
+    position: absolute;
+    font-size: 1.6rem;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.navigation {
+    width: 4.875rem;
+    height: 4.875rem;
+    position: relative;
+    cursor: pointer;
+}
+.navigation-left {
+    background-color: #f4f4f4;
+}
+.navigation-left:hover {
+    background-color: #c3c3c3;
+}
+.navigation-right {
+    background-color: #ffefd8;
+}
+.navigation-right:hover {
+    background-color: #fff5e7;
+}
+.hero__arrow-wrapper {
+    width: 1rem;
+    height: 9.18rem;
+    margin: auto;
+}
+/******************************************
+            Our Story  Section
+******************************************/
+.grid__image-col {
+    position: relative;
+}
+.our-story {
+    height: 90rem;
+    padding: 10rem 0 0 0;
+    position: relative;
+}
+.our-story .grid--2-col {
+    grid-template-columns: 32.62rem 1fr;
+    column-gap: 13rem;
+}
+.our-story__button-wrapper {
+    width: 9.625rem;
+    margin-bottom: 1.7rem;
+}
+.story-lion-image__wrapper {
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    width: 34.87rem;
+    height: 32rem;
+}
+.story-tree-image__wrapper {
+    width: 56.5rem;
+    height: 39rem;
+    position: absolute;
+    bottom: -40%;
+}
+.tree-left__wrapper {
+    position: absolute;
+    left: 0rem;
+    width: 28rem;
+    height: 54rem;
+    z-index: 4;
+    bottom: -24rem;
+}
+.tree-right__wrapper {
+    position: absolute;
+    right: 0rem;
+    width: 28rem;
+    height: 28rem;
+    z-index: 4;
+    bottom: -4rem;
+}
+.story-white-bg__wrapper {
+    height: 37rem;
+    width: 100vw;
+    max-width: 100%;
+    position: absolute;
+    bottom: -4rem;
+    z-index: 3;
+    right: 0rem;
+}
+.story-orange-bg__wrapper {
+    height: 26rem;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    max-width: 100%;
+    right: 0rem;
+    bottom: 3rem;
+}
+.button-story {
+    background-color: #ffd8a3;
+}
+.button-story:hover {
+    background-color: #e5c292;
+}
+.our-story h2 {
+    margin-bottom: 1.7rem;
+}
+.our-story h5 {
+    line-height: 2.4rem;
+    margin-bottom: 1.8rem;
+}
+.our-story__para p {
+    line-height: 1.8rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+/******************************************
+            Hero  Section
+******************************************/
+.section-roadmap {
+    padding-top: 6rem;
+    position: relative;
+}
+.section-roadmap .grid--3-col {
+    justify-items: center;
+}
+.roadmap__arrow-image {
+    width: 1.875rem;
+    height: 113.68rem;
+}
+.grid-content-col--none {
+    display: none;
+}
+.roadmap__arrow-image-1 {
+    display: none;
+}
+.roadmap__content {
+    border: 1px solid #ffefd8;
+    padding: 1.5rem;
+    width: 30.9rem;
+}
+.roadmap__content h6 {
+    margin-bottom: 0.625rem;
+}
+.roadmap__content p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.roadmap__icon-wrapper--bg {
+    background-color: #ff9014 !important;
+}
+.roadmap__button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.button-roadmap {
+    background-color: #ffa832;
+    width: 8.68rem;
+}
+.roadmap__heading {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.roadmap__icon-wrapper {
+    width: 4.78rem;
+    background-color: #ffefd8;
+}
+.single-content {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-bottom: 4.25rem;
+}
+.single-content:last-child {
+    margin-bottom: 0;
+}
+.grid__content-col--center {
+    align-self: center;
+}
+.roadmap-button {
+    position: relative;
+    display: block;
+    height: 4.78rem;
+}
+.button-roadmap:hover {
+    background-color: #ffc26f;
+}
+
+.roadmap-button img {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.join-discord-button__wrapper {
+    width: 19.81rem;
+    margin: auto;
+    border: 4px solid #ffd8a3;
+}
+.button-join {
+    height: 6.43rem;
+    line-height: 6.43rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.25rem 0 1.5rem;
+    font-size: 3rem;
+    font-family: "Bahiana", cursive;
+    font-weight: 400;
+}
+.button-box {
+    width: 3.69rem;
+    height: 3.93rem;
+    background-color: #ffefd8;
+    position: relative;
+}
+.button-box img {
+    width: 1.6875rem;
+    height: 1.9375rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.section-roadmap h2 {
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+/******************************************
+            Tree  Section
+******************************************/
+.tree__image-wrapper {
+    height: 43rem;
+    width: 31rem;
+    position: absolute;
+    left: 0rem;
+    bottom: -21rem;
+}
+/******************************************
+            Projects Specs  Section
+******************************************/
+.projects-specs {
+    padding-top: 11rem;
+    margin-bottom: 8rem;
+}
+.projects-specs .grid--2-col {
+    column-gap: 2rem !important;
+}
+.projects-specs-button__wrapper {
+    width: 12.62rem;
+    margin-bottom: 1.87rem;
+}
+.button-projects {
+    background-color: #ffba5c;
+}
+.button-projects:hover {
+    background-color: #ffc77c;
+}
+.projects-specs__image {
+    border: 1px solid #ffa832;
+    width: 35.75rem;
+    height: 43.32rem;
+}
+.projects-specs__image-wrapper {
+    width: 34.75rem;
+    height: 42.32rem;
+    background-color: #fff3e2;
+}
+.single-box {
+    width: 20.625rem;
+    height: 20.625rem;
+    border: 1px solid #dd7f00;
+    padding: 3.75rem 2.5rem;
+    margin-bottom: 1.87rem;
+}
+.projects-specs__heading {
+    margin-bottom: 4rem;
+}
+h4 {
+    font-family: "Bahiana", cursive;
+    margin-bottom: 1.18rem;
+}
+.grid-content-col--end {
+    align-self: end;
+}
+.grid__boxes--padding {
+    padding-top: 5.75rem;
+}
+/******************************************
+            Our Team  Section
+******************************************/
+.our-team {
+    height: 89rem;
+    position: relative;
+    /* padding: 2rem 0 0 0; */
+}
+.our-team .grid--4-col {
+    column-gap: 1.875rem;
+}
+.team-tree-down__wrapper {
+    width: 28.37rem;
+    height: 46.18rem;
+    position: absolute;
+    right:0;
+    z-index: -1;
+    top: 22rem;
+}
+.team-tree-up__wrapper {
+    width: 28rem;
+    height: 46.62rem;
+    position: absolute;
+    top: -9.4rem;
+    right:0;
+}
+.team-orange-bg__wrapper {
+    height: 26.56rem;
+    width: 100vw;
+    max-width: 100%;
+    position: absolute;
+    bottom: 21rem;
+    z-index: -1;
+    left: 0rem;
+}
+.team-brown-bg__wrapper {
+    height: 22.375rem;
+    width: 88.8rem;
+    z-index: 4;
+    position: absolute;
+    bottom: 18rem;
+}
+.team-black-2-bg__wrapper {
+    height: 18.25rem;
+    width: 88.8rem;
+    position: absolute;
+    bottom: 10rem;
+    z-index: 8;
+}
+.team-black-1-bg__wrapper {
+    height: 21.75rem;
+    width: 88.8rem;
+    position: absolute;
+    bottom: 17rem;
+    z-index: 6;
+}
+.team-white-bg__wrapper {
+    height: 32.5rem;
+    width: 100vw;
+    max-width: 100%;
+    z-index: 10;
+    position: absolute;
+    bottom: 5rem;
+    left: 0rem;
+}
+.our-team-button {
+    margin-bottom: 2.18rem;
+}
+.button-team {
+    background-color: #dd7f00;
+}
+.button-team:hover {
+    background-color: #e7a54c;
+}
+.our-team-button__wrapper {
+    width: 10.18rem;
+}
+.our-team__heading {
+    margin-bottom: 4.375rem;
+}
+.single-employee {
+    padding: 0.625rem;
+    border: 1px solid #fff1dc;
+    background-color: #fff;
+    z-index: 20;
+}
+.single-employee__image-wrapper {
+    width: 19.375rem;
+    height: 19.375rem;
+    margin-bottom: 1.5rem;
+}
+.single-employee h5 {
+    margin-bottom: 0.5rem;
+    padding: 0 1rem;
+}
+.single-employee h6 {
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+.single-employee p {
+    padding: 0 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+/******************************************
+            FAQS  Section
+******************************************/
+.grid__content-col--end {
+    justify-self: end;
+}
+.section-faqs {
+    position: relative;
+    padding-bottom: 5rem;
+}
+.faqs__arrow-up-wrapper {
+    width: 1rem;
+    height: 15.125rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.faqs__box {
+    width: 35.625rem;
+    background-color: #fff3e2;
+    padding: 2.25rem;
+    height: 14.68rem;
+}
+.section-faqs__button {
+    width: 22.87rem;
+    margin-bottom: 2.18rem;
+}
+.button-faqs {
+    background-color: #7f0214;
+    color: #fff;
+}
+.button-faqs:hover {
+    color: #7f0214;
+    border: 1px solid #7f0214;
+    background-color: #fff;
+}
+.section-faqs h2 {
+    margin-bottom: 4rem;
+}
+.faqs__heading {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #ff9014;
+    margin-bottom: 1.5rem;
+}
+/******************************************
+            footer Menu  Section
+******************************************/
+.footer {
+    height: 11.56rem;
+    line-height: 11.56rem;
+    position: relative;
+}
+.footer-menu__social-icons {
+    display: flex;
+    column-gap: 2rem;
+    justify-self: end;
+}
+.footer-menu__social-icons i {
+    font-size: 1.3rem;
+}
+.footer-menu__social-icons i:hover {
+    color: #ff9014;
+}
+.footer-menu__logo {
+    width: 101px;
+    height: 101px;
+    align-self: center;
+    z-index: 10;
+}
+.footer-menu__logo a {
+    display: block;
+    width: 101px;
+    height: 101px;
+    text-indent: -900000px;
+    background-image: url(../images/logo.png);
+    background-size: cover;
+}
+.footer-menu__copyright {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 3.625rem;
+}
+.footer-menu__copyright p {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+}
+.footer-menu {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    align-items: center;
+    column-gap: 2.625rem;
+}
+/******************************************
+            Mouse Image  Section
+******************************************/
+.section-mouse-image {
+    padding-top: 2rem;
+}
+.mouse-image__grid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+}
+.mouse-image__wrapper {
+    width: 3.75rem;
+    height: 3.75rem;
+}
+.left-border {
+    border-top: 1px solid #ff9014;
+    margin-right: 30px;
+}
+.right-border {
+    border-top: 1px solid #ff9014;
+    margin-left: 30px;
+}
