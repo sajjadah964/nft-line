@@ -293,6 +293,7 @@
     }
     .projects-specs .grid--2-col {
         grid-template-columns: 1fr;
+        row-gap: 0;
     }
     .projects-specs__image {
         width: auto;
@@ -336,7 +337,7 @@
     }
     .our-team {
         height: auto;
-        padding: 2rem 1rem 1rem 1rem;
+        padding: 3rem 1rem 1rem 1rem;
     }
     .team-orange-bg {
         display: none;
@@ -354,7 +355,7 @@
         display: none;
     }
     .section-faqs {
-        padding: 2rem 1rem 0 1rem;
+        padding: 3rem 1rem 0 1rem;
     }
     .section-faqs .grid--2-row {
         grid-template-columns: 1fr;
